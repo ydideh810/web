@@ -79,7 +79,7 @@ const features = [
   {
     title: "Host anywhere",
     description:
-      "Host your own Scoopika endpoint on your favorite cloud. memory & knowledge stores are on us ;)",
+      "Host your own niddam-hub endpoint on your favorite cloud. memory & knowledge stores are on us ;)",
     icon: <IconCloud />,
   },
   {
@@ -195,7 +195,7 @@ export default async function Home() {
                 color="primary"
                 size="md"
                 as={Link}
-                href="https://app.scoopika.com/login"
+                href="https://app.niddam-hub.com/login"
                 className="font-semibold"
                 style={{
                   boxShadow: "0px 5px 15px 5px rgba(255, 255, 255, .1)",
@@ -288,43 +288,43 @@ export default async function Home() {
           <div className="w-full grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 flex gap-10">
             <div className="h-full border rounded-xl bg-accent/20 backdrop-blur p-6">
               <div className="w-full h-48 border rounded-xl bg-accent/10 flex flex-col items-center justify-center gap-2 overflow-hidden group p-4">
-                <div className="w-full p-2 flex items-center gap-3 border rounded-xl hover:bg-violet-400/5 transition-all cursor-pointer">
-                  <div className="w-8 h-8 flex items-center justify-center border border-violet-400 bg-violet-400/5 rounded-lg">
+                <div className="w-full p-2 flex items-center gap-3 border rounded-xl hover:bg-red-400/5 transition-all cursor-pointer">
+                  <div className="w-8 h-8 flex items-center justify-center border border-red-400 bg-red-400/5 rounded-lg">
                     <MdCode />
                   </div>
                   <div className="truncate">
-                    <div className="text-xs">Functions</div>
-                    <div className="text-xs opacity-70 truncate">
+                    <div className="text-xs text-red-800">Functions</div>
+                    <div className="text-xs opacity-70 truncate text-red-800">
                       Custom function from your code
                     </div>
                   </div>
                 </div>
-                <div className="w-full p-2 flex items-center gap-3 border rounded-xl hover:bg-violet-400/5 transition-all cursor-pointer">
-                  <div className="w-8 h-8 flex items-center justify-center border border-violet-400 bg-violet-400/5 rounded-lg">
+                <div className="w-full p-2 flex items-center gap-3 border rounded-xl hover:bg-red-400/5 transition-all cursor-pointer">
+                  <div className="w-8 h-8 flex items-center justify-center border border-red-400 bg-red-400/5 rounded-lg">
                     <FaGoogle />
                   </div>
                   <div>
-                    <div className="text-xs">Google</div>
-                    <div className="text-xs opacity-70 truncate">
+                    <div className="text-xs text-red-800">Google</div>
+                    <div className="text-xs opacity-70 text-red-800 truncate">
                       Search google for resutls
                     </div>
                   </div>
                 </div>
-                <div className="w-full p-2 flex items-center gap-3 border rounded-xl hover:bg-violet-400/5 transition-all cursor-pointer">
-                  <div className="w-8 h-8 flex items-center justify-center border border-violet-400 bg-violet-400/5 rounded-lg">
+                <div className="w-full p-2 flex items-center gap-3 border rounded-xl hover:bg-red-400/5 transition-all cursor-pointer">
+                  <div className="w-8 h-8 flex items-center justify-center border border-red-400 bg-red-400/5 rounded-lg">
                     <AiFillApi />
                   </div>
                   <div>
-                    <div className="text-xs">Your API</div>
-                    <div className="text-xs opacity-70 truncate">
+                    <div className="text-xs text-red-800">Your API</div>
+                    <div className="text-xs opacity-70 truncate text-red-800">
                       Connect any API you want
                     </div>
                   </div>
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3">APIs & Tools</div>
-                <div className="text-sm opacity-70">
+                <div className="text-lg mb-3 text-red-800">APIs & Tools</div>
+                <div className="text-sm opacity-70 text-red-800">
                   Equip your AI agents with APIs and tools they can use to fetch
                   data or perform actions based on context
                 </div>
@@ -340,8 +340,8 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3">Voice interaction</div>
-                <div className="text-sm opacity-70">
+                <div className="text-lg mb-3 text-red-800">Voice interaction</div>
+                <div className="text-sm opacity-70 text-red-800">
                   Accept voice inputs, process multiple audio files in parallel,
                   and stream voice responses in under 300ms
                 </div>
@@ -366,8 +366,8 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3">Knowledge Stores</div>
-                <div className="text-sm opacity-70">
+                <div className="text-lg mb-3 text-red-800">Knowledge Stores</div>
+                <div className="text-sm opacity-70 text-red-800">
                   Upload files, PDFs, or websites to knowledge stores to expand
                   your AI agents knowledge
                 </div>
@@ -378,27 +378,27 @@ export default async function Home() {
             <div className="w-full h-full border rounded-xl bg-accent/20 backdrop-blur p-6 flex flex-col group">
               <div className="flex flex-col gap-5 w-full">
                 <div>
-                  <div className="text-xs mb-2 opacity-80">Speed</div>
-                  <div className="w-full border border-violet-300/50 rounded-full p-1 flex items-center justify-end pr-36 group-hover:pr-2 transition-all duration-1000">
-                    <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-violet-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
+                  <div className="text-xs mb-2 opacity-80 text-red-800">Speed</div>
+                  <div className="w-full border border-red-300/50 rounded-full p-1 flex items-center justify-end pr-36 group-hover:pr-2 transition-all duration-1000">
+                    <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-red-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
                   </div>
                 </div>
                 <div>
-                  <div className="text-xs mb-2 opacity-80">Security</div>
-                  <div className="w-full border border-violet-300/50 rounded-full p-1 flex items-center justify-end pr-24 group-hover:pr-2 transition-all duration-1000">
-                    <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-violet-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
+                  <div className="text-xs mb-2 opacity-80 text-red-800">Security</div>
+                  <div className="w-full border border-red-300/50 rounded-full p-1 flex items-center justify-end pr-24 group-hover:pr-2 transition-all duration-1000">
+                    <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-red-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
                   </div>
                 </div>
                 <div>
                   <div className="text-xs mb-2 opacity-80">Accuracy</div>
-                  <div className="w-full border border-violet-300/50 rounded-full p-1 flex items-center justify-end pr-48 group-hover:pr-4 transition-all duration-1000">
-                    <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-violet-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
+                  <div className="w-full border border-red-300/50 rounded-full p-1 flex items-center justify-end pr-48 group-hover:pr-4 transition-all duration-1000">
+                    <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-red-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
                   </div>
                 </div>
               </div>
               <div className="h-full"></div>
-              <div className="text-2xl mt-8">Fast & Reliable</div>
-              <div className="opacity-70 text-sm mt-3">
+              <div className="text-2xl mt-8 text-red-800">Fast & Reliable</div>
+              <div className="opacity-70 text-sm mt-3 text-red-800">
                 NiddamHub is optimized for performance and real-time interactive
                 applications, with built-in streaming, memory encryption, LLM
                 output validation, and smart errors recovery
@@ -452,7 +452,7 @@ export default async function Home() {
                 <div className="flex flex-col gap-10 items-center justify-center p-4 group-hover:-translate-y-20 transition-all">
                   <div className="flex items-center w-full justify-end">
                     <div>
-                      <div className="text-xs text-violet-300">You</div>
+                      <div className="text-xs text-red-300">You</div>
                       <div className="text-xs opacity-80">
                         Is this a paid platform?
                       </div>
@@ -460,7 +460,7 @@ export default async function Home() {
                   </div>
                   <div className="flex items-center w-full">
                     <div>
-                      <div className="text-xs text-violet-300">
+                      <div className="text-xs text-red-300">
                         AI Assistant
                       </div>
                       <div className="text-xs opacity-80">
@@ -556,26 +556,26 @@ export default async function Home() {
             </div>
             <div className="h-full border rounded-xl bg-accent/20 backdrop-blur p-6">
               <div className="w-full h-48 border rounded-xl bg-accent/10 flex items-center justify-center gap-2 overflow-hidden">
-                <div className="p-1 pl-2 pr-2 text-sm border-violet-500 bg-violet-500/5 border rounded-xl text-violet-400" />
+                <div className="p-1 pl-2 pr-2 text-sm border-red-500 bg-red-500/5 border rounded-xl text-red-400" />
                 <div className="flex flex-col gap-2 items-center justify-center">
-                  <div className="p-1 pl-2 pr-2 text-sm border-violet-500 bg-violet-500/5 border rounded-xl text-violet-400 max-w-max" />
+                  <div className="p-1 pl-2 pr-2 text-sm border-red-500 bg-red-500/5 border rounded-xl text-red-400 max-w-max" />
 
                   <div
-                    className="p-2 pl-4 pr-4 text-sm border-violet-500 bg-violet-500/5 border rounded-xl text-violet-400"
+                    className="p-2 pl-4 pr-4 text-sm border-red-500 bg-red-500/5 border rounded-xl text-red-400"
                     style={{
                       boxShadow: "0px 0px 100px 0px #8b5cf6",
                     }}
                   >
                     Create AI agent
                   </div>
-                  <div className="p-1 pl-2 pr-2 text-sm border-violet-500 bg-violet-500/5 border rounded-xl text-violet-400 max-w-max" />
+                  <div className="p-1 pl-2 pr-2 text-sm border-red-500 bg-red-500/5 border rounded-xl text-red-400 max-w-max" />
                 </div>
 
-                <div className="p-1 pl-2 pr-2 text-sm border-violet-500 bg-violet-500/5 border rounded-xl text-violet-400" />
+                <div className="p-1 pl-2 pr-2 text-sm border-red-500 bg-red-500/5 border rounded-xl text-red-400" />
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3">01. Create AI bot/agent</div>
-                <div className="text-sm opacity-70">
+                <div className="text-lg mb-3 text-red-800">01. Create AI bot/agent</div>
+                <div className="text-sm opacity-70 text-red-800">
                   AI agents can be used to build automation apps, AI
                   conversational bots (text & voice), or for data extraction
                   tasks.
@@ -589,8 +589,8 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3">02. Build</div>
-                <div className="text-sm opacity-70">
+                <div className="text-lg mb-3 text-red-800">02. Build</div>
+                <div className="text-sm opacity-70 text-red-800">
                   Use the agent in your app or deploy it as an API endpoint in
                   seconds with your favorite web framework.
                 </div>
@@ -608,9 +608,9 @@ export default async function Home() {
                 style={{
                   textShadow: "10px 5px 35px rgba(255, 255, 255, .2)",
                 }}
-                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full"
+                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full text-red-800"
               >
-                Why Scoopika?
+                Why Niddam-Hub?
               </h2>
             </div>
           </div>
@@ -669,11 +669,11 @@ export default async function Home() {
             <div className="mt-10 flex flex-col gap-2">
               <CheckItem title="Works with any web framework, React, and NextJS" />
               <CheckItem title="Streaming made easy with hooks" />
-              <CheckItem title="Deploy a Scoopika endpoint with 3 lines of code" />
+              <CheckItem title="Deploy a niddam-hub endpoint with 3 lines of code" />
             </div>
           </div>
           <div className="w-full flex items-center justify-end">
-            <img src="/images/scoopika-ts-img3.png" width="440px" />
+            <img src="/images/niddam-hub-ts-img3.png" width="440px" />
           </div>
         </div>
       </div>
@@ -700,13 +700,13 @@ export default async function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex gap-4 mt-8">
             <Link
-              href="https://docs.scoopika.com/packages/ts/scoopika"
+              href="https://docs.niddam-hub.com/packages/ts/niddam-hub"
               target="_blank"
               className="p-6 bg-accent/30 rounded-3xl w-full transition-all hover:bg-accent/40 hover:scale-105 h-48 border"
             >
-              <div className="mb-2 text-lg">@scoopika/scoopika</div>
+              <div className="mb-2 text-lg">@niddam-hub/niddam-hub</div>
               <div className="text-sm opacity-70 mb-4">
-                Run agents on the server-side & deploy a HTTP based Scoopika API
+                Run agents on the server-side & deploy a HTTP based niddam-hub API
                 endpoint with streaming support
               </div>
               <div className="p-1 pl-2 pr-2 text-xs bg-blue-400/10 text-blue-400 max-w-max rounded-full font-semibold flex items-center gap-2">
@@ -715,11 +715,11 @@ export default async function Home() {
               </div>
             </Link>
             <Link
-              href="https://docs.scoopika.com/packages/ts/client"
+              href="https://docs.niddam-hub.com/packages/ts/client"
               target="_blank"
               className="p-6 bg-accent/30 rounded-3xl w-full transition-all hover:bg-accent/40 hover:scale-105 h-48 border"
             >
-              <div className="mb-2 text-lg">@scoopika/client</div>
+              <div className="mb-2 text-lg">@niddam-hub/client</div>
               <div className="text-sm opacity-70 mb-4">
                 Run agents on the client-side with built-in support for
                 real-time streaming and client-side actions
@@ -730,14 +730,14 @@ export default async function Home() {
               </div>
             </Link>
             <Link
-              href="https://docs.scoopika.com/packages/ts/react"
+              href="https://docs.niddam-hub.com/packages/ts/react"
               target="_blank"
               className="p-6 bg-accent/30 rounded-3xl w-full transition-all hover:bg-accent/40 border hover:scale-105 h-48"
             >
-              <div className="mb-2 text-lg">@scoopika/react</div>
+              <div className="mb-2 text-lg">@niddam-hub/react</div>
               <div className="text-sm opacity-70 mb-4">
-                Building blocks to use Scoopika in React projects with built-in
-                state management. Scoopika playground was built using this
+                Building blocks to use niddam-hub in React projects with built-in
+                state management. niddam-hub playground was built using this
               </div>
               <div className="p-1 pl-2 pr-2 text-xs bg-blue-400/10 text-blue-400 max-w-max rounded-full font-semibold flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
@@ -750,7 +750,7 @@ export default async function Home() {
           </div>
           <div className="w-full flex flex-col md:flex-row md:items-center gap-4">
             <Link
-              href="https://github.com/scoopika"
+              href="https://github.com/niddam-hub"
               target="_blank"
               className="h-72 p-6 bg-accent/30 rounded-3xl flex flex-col items-center transition-all hover:bg-accent/40 relative w-full border"
             >
@@ -760,13 +760,13 @@ export default async function Home() {
                 className="absolute opacity-5 w-full h-full p-10"
               />
               <div className="mb-2 mt-4">Github</div>
-              <div className="text-sm opacity-80 text-center">
-                You can see all parts of Scoopika that have been developed as
-                open source (90% of Scoopika)
+              <div className="text-sm opacity-80 text-center text-red-800">
+                 All parts of Niddam-Hub that have been developed as
+                open source
               </div>
             </Link>
             <Link
-              href="https://x.com/scoopika_"
+              href="https://x.com/niddam-hub_"
               target="_blank"
               className="h-72 p-6 bg-accent/30 rounded-3xl flex flex-col items-center transition-all hover:bg-accent/40 relative w-full border"
             >
@@ -775,8 +775,8 @@ export default async function Home() {
                 size={150}
                 className="absolute opacity-5 w-full h-full p-10"
               />
-              <div className="mb-2 mt-4">X (Twitter)</div>
-              <div className="text-sm opacity-80 text-center">
+             
+              <div className="text-sm opacity-80 text-center text-red-800">
                 Follow us to stay up to date with our latest news and updates
               </div>
             </Link>
@@ -828,12 +828,12 @@ export default async function Home() {
 
       <div className="w-full p-8 pt-20 md:p-12 md:pt-36 dark min-h-max">
         <div className="w-full flex flex-col gap-5 lg:pl-20 lg:pr-20 min-h-max mb-24">
-          <TextGenerateEffect words="Let's start building right now! Scoopika introduces $0 extra costs to your LLM provider's costs. Only pay for optional features that deserve paying for" />
+          <TextGenerateEffect words="Let's start building right now! niddam-hub introduces $0 extra costs to your LLM provider's costs. Only pay for optional features that deserve paying for" />
           <Button
             color="primary"
             size="lg"
             as={Link}
-            href="https://app.scoopika.com/login"
+            href="https://app.niddam-hub.com/login"
             className="font-semibold max-w-max"
             style={{
               boxShadow: "0px 5px 15px 5px rgba(255, 255, 255, .1)",
