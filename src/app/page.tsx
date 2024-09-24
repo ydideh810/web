@@ -44,7 +44,7 @@ import { cn } from "@/lib/utils";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { Offer, Plans } from "./pricing/page";
 
-const words = ["multimodal", "reliable", "unique", "interactive"];
+const words = ["Multimodal", "Stable", "Exclusive", "Interactive"];
 
 const features = [
   {
@@ -165,7 +165,7 @@ export default async function Home() {
           <div className="w-full">
             <div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold w-full text-start">
-                Build{" "}
+                {" "}
                 <span className="moving-gradient">
                   <FlipWords
                     duration={2000}
