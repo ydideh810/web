@@ -24,7 +24,7 @@ export default function Bento() {
     <>
       <div className="w-[80%] relative flex flex-col items-center">
         <h2 className="text-3xl font-semibold mb-10">
-          Everything you need in one place
+          All the tools you need in one place
         </h2>
         <div className="w-full flex flex-col gap-4">
           <div className="w-full flex items-center gap-4">
@@ -44,8 +44,8 @@ export default function Bento() {
                 <FaLongArrowAltRight />
                 <div className="flex items-center justify-center w-9 h-9 rounded-full bg-black dark:bg-white overflow-hidden pl-1 group">
                   <Image
-                    src="/logo.png"
-                    alt="Scoopika logo"
+                    src="/nh.png"
+                    alt=" logo"
                     width={40}
                     height={40}
                     className="rotate-[-10deg] mt-1.5 group-hover:scale-110 transition-transform duration-500"
@@ -144,7 +144,7 @@ export default function Bento() {
                 </div>
               </div>
               <div className="w-full flex flex-col justify-end border-t-1 absolute bottom-0 left-0 p-4 gap-2 bg-accent/80 dark:bg-accent/30 rounded-b-lg">
-                <h3 className="font-semibold">Error healing and reporting</h3>
+                <h3 className="font-semibold">Error and reporting</h3>
                 <p className="text-xs opacity-80">
                   Agents automatically detect and report errors, communicating
                   with users regarding missing or incorrect data to ensure
