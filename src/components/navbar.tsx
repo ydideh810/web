@@ -31,7 +31,7 @@ interface Props {
 
 const initialItems: Props["items"] = [
   { name: "Home", href: "/", type: "link" },
-  { name: "Dashboard", href: "https://app.scoopika.com/login", type: "link" },
+  { name: "Dashboard", href: "https://web-8pvm.vercel.app/login", type: "link" },
   { name: "Pricing", href: "/pricing", type: "link" },
   {
     name: "Docs",
@@ -79,10 +79,10 @@ const Navbar: FC<Props> = ({
             href={path ? `/${path}` : "/"}
           >
             <div className="flex items-center text-sm">
-              <div className="w-9 h-9 overflow-hidden rounded-xl bg-white flex items-center justify-center pt-1">
+              <div className="w-9 h-9 overflow-hidden rounded-xl flex items-center justify-center pt-1">
                 <SvgLogo />
               </div>
-              <div className="font-semibold ml-3">Scoopika</div>
+              <div className="font-semibold ml-3 text-red-800">NIDDAM-HUB</div>
             </div>
           </NavbarBrand>
         </div>
@@ -112,7 +112,7 @@ const Navbar: FC<Props> = ({
           variant="light"
           className="border"
           as={Link}
-          href="https://github.com/scoopika"
+          href="https://github.com/web"
           target="_blank"
         />
         {!session ? (
@@ -122,7 +122,7 @@ const Navbar: FC<Props> = ({
             endContent={<Icons.ChevronRIghtIcon size={18} />}
             className="font-semibold hidden sm:flex"
             as={Link}
-            href="https://app.scoopika.com/login"
+            href="https://web-8pvm.vercel.app/login"
           >
             Log in
           </Button>
@@ -133,7 +133,7 @@ const Navbar: FC<Props> = ({
             endContent={<Icons.ChevronRIghtIcon size={18} />}
             className="font-semibold"
             as={Link}
-            href="https://app.scoopika.com/"
+            href="https://web-8pvm.vercel.app/"
           >
             App
           </Button>
