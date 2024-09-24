@@ -399,7 +399,7 @@ export default async function Home() {
               <div className="h-full"></div>
               <div className="text-2xl mt-8">Fast & Reliable</div>
               <div className="opacity-70 text-sm mt-3">
-                Scoopika is optimized for performance and real-time interactive
+                NiddamHub is optimized for performance and real-time interactive
                 applications, with built-in streaming, memory encryption, LLM
                 output validation, and smart errors recovery
               </div>
@@ -409,7 +409,7 @@ export default async function Home() {
               <div className="w-full h-full absolute z-10 p-10 transition-all group-hover:bg-background/60 top-0 left-0">
                 <div className="text-3xl">Scale globally</div>
                 <div className="max-w-[90%] mt-6">
-                  Built to effortlessly scale on your own rules. Both knowledge
+                  Effortlessly scale on your own rules. Both knowledge
                   & memory stores are scalable and served edge-close to your
                   users from 26 regions across the globe
                 </div>
@@ -454,7 +454,7 @@ export default async function Home() {
                     <div>
                       <div className="text-xs text-violet-300">You</div>
                       <div className="text-xs opacity-80">
-                        Is Scoopika a paid platform?
+                        Is this a paid platform?
                       </div>
                     </div>
                   </div>
@@ -467,7 +467,7 @@ export default async function Home() {
                         Based on the knowledge I have
                         <br />
                         <br />
-                        Scoopika has a free-forever plan so you can use its core
+                        We have a free plan so you can use its core
                         features on your servers totally for free, but it
                         provides paid options with more features like long-term
                         memory and knowledge stores
@@ -629,7 +629,7 @@ export default async function Home() {
               Use cases
             </div>
             <div className="text-sm lg:text-base opacity-70 mt-6">
-              With Scoopika you can build any AI application that can be built
+              You can build any AI application
               with the OpenAI SDK, now 10 times faster, more reliable, with
               multimodal inputs.
             </div>
