@@ -52,11 +52,11 @@
     background: radial-gradient(
         3em 3em at 50% 50%,
         transparent calc(var(--headp) - 2em),
-        #fff calc(var(--headp) - 1em),
-        #fff calc(var(--headp) - 0.4em),
+        #ff2222 calc(var(--headp) - 1em),
+        #a81919 calc(var(--headp) - 0.4em),
         transparent var(--headp)
       ),
-      linear-gradient(0deg, #fff 30%, #ddd 100%);
+      linear-gradient(0deg, #ff2222 30%, #a81919 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -87,7 +87,7 @@
     /* display: flex; */
     width: 100%;
     /* justify-content: center; */
-    color: #919191;
+    color: #9c0b0b;
     padding: 2em;
     position: absolute;
     top: -50px;
@@ -127,9 +127,9 @@
     background-image: conic-gradient(
       from 0deg at 50% -5%,
       transparent 45%,
-      rgba(255, 255, 255, 0.3) 49%,
-      rgba(255, 255, 255, 0.5) 50%,
-      rgba(255, 255, 255, 0.3) 51%,
+      rgba(248, 0, 0, 0.3) 49%,
+      rgba(255, 64, 64, 0.5) 50%,
+      rgba(248, 0, 0, 0.3) 51%,
       transparent 55%
     );
     transform-origin: 50% 0;
