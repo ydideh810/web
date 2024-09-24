@@ -187,10 +187,8 @@ export default async function Home() {
               </h1>
             </div>
             <p className="opacity-80 text-xs md:text-sm lg:text-base mt-8">
-              Open-source toolkit for developers to easily build modern fast,
-              reliable, Multimodal LLM-powered web applications, with built-in
-              errors recovery, responses streaming, multimodal inputs handling,
-              and LLM-output validation
+              NiddamHub is an open-source toolkit to help developpers build LLM-powered applications for 
+              any project. 
             </p>
             <div className="flex flex-col md:flex-row md:items-center gap-6 mt-8">
               <Button
