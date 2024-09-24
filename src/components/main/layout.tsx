@@ -119,7 +119,7 @@ export default function MainLayout({ children, session }: Props) {
           <div className="w-9 h-9 overflow-hidden rounded-xl bg-white flex items-center justify-center pt-1">
             <SvgLogo />
           </div>
-          <div className="font-semibold ml-3">Scoopika</div>
+          <div className="font-semibold ml-3">NiddamHub</div>
         </div>
         <div className="min-w-max flex items-center justify-end gap-4">
           {plan.type === "free" && (
