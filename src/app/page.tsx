@@ -677,7 +677,69 @@ export default async function Home() {
           </div>
         </div>
       </div>
-
+        <div className="w-full p-8 pt-20 md:p-12 md:pt-36 dark min-h-max">
+        <div className="w-full flex flex-col gap-5 lg:pl-20 lg:pr-20 min-h-max">
+          <div className="w-full">
+              <div className="w-full flex items-center">
+             
+              <div
+                className="w-5 h-5 rounded-full blur-2xl opacity-20"
+                style={{
+                  boxShadow: "0px 5px 200px 120px #8b5cf6",
+                }}
+              ></div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex gap-4 mt-8">
+           {/* <Link
+              href="https://docs.niddam-hub.com/packages/ts/niddam-hub"
+              target="_blank"
+              className="p-6 bg-accent/30 rounded-3xl w-full transition-all hover:bg-accent/40 hover:scale-105 h-48 border"
+            >
+              <div className="mb-2 text-lg text-red-700">@niddam-hub/niddam-hub</div>
+              <div className="text-sm opacity-70 mb-4 text-red-700">
+                Run agents on the server-side & deploy a HTTP based niddam-hub API
+                endpoint with streaming support
+              </div>
+              <div className="p-1 pl-2 pr-2 text-xs bg-blue-400/10 text-blue-400 max-w-max rounded-full font-semibold flex items-center gap-2">
+                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                Typescript
+              </div>  
+            </Link> */} 
+           {/* <Link
+              href="https://docs.niddam-hub.com/packages/ts/client"
+              target="_blank"
+              className="p-6 bg-accent/30 rounded-3xl w-full transition-all hover:bg-accent/40 hover:scale-105 h-48 border"
+            >
+              <div className="mb-2 text-lg">@niddam-hub/client</div>
+              <div className="text-sm opacity-70 mb-4">
+                Run agents on the client-side with built-in support for
+                real-time streaming and client-side actions
+              </div>
+              <div className="p-1 pl-2 pr-2 text-xs bg-blue-400/10 text-blue-400 max-w-max rounded-full font-semibold flex items-center gap-2">
+                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                Typescript
+              </div>
+            </Link>*/}
+           {/* <Link
+              href="https://docs.niddam-hub.com/packages/ts/react"
+              target="_blank"
+              className="p-6 bg-accent/30 rounded-3xl w-full transition-all hover:bg-accent/40 border hover:scale-105 h-48"
+            >
+              <div className="mb-2 text-lg text-red-700">@niddam-hub/react</div>
+              <div className="text-sm opacity-70 mb-4 text-red-700">
+                Building blocks to use niddam-hub in React projects with built-in
+                state management. niddam-hub playground was built using this
+              </div>
+              <div className="p-1 pl-2 pr-2 text-xs bg-blue-400/10 text-blue-400 max-w-max rounded-full font-semibold flex items-center gap-2">
+                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                Typescript
+              </div> 
+            </Link>*/}
+            <div className="p-6 border-1 rounded-3xl opacity-80 h-48"></div>
+            <div className="p-6 border-1 rounded-3xl opacity-80 h-48 hidden md:flex"></div>
+            <div className="p-6 border-1 rounded-3xl opacity-80 h-48 hidden md:flex"></div>
+          </div> 
    
           <div className="w-full flex flex-col md:flex-row md:items-center gap-4">
             <Link
