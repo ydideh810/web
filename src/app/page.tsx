@@ -174,7 +174,7 @@ export default async function Home() {
                   />
                 </span>{" "}
               </h1>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold w-full text-start mt-3">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold w-full text-start mt-3 text-red-800">
                 LLM-powered apps
               </h1>
               <h1
@@ -186,7 +186,7 @@ export default async function Home() {
                 10x faster
               </h1>
             </div>
-            <p className="opacity-80 text-xs md:text-sm lg:text-base mt-8">
+            <p className="opacity-80 text-xs md:text-sm lg:text-base mt-8 text-red-700">
               NiddamHub is an open-source toolkit to help developpers build LLM-powered applications for 
               any project. 
             </p>
@@ -196,7 +196,7 @@ export default async function Home() {
                 size="md"
                 as={Link}
                 href="https://app.niddam-hub.com/login"
-                className="font-semibold"
+                className="font-semibold text-red-700"
                 style={{
                   boxShadow: "0px 5px 15px 5px rgba(255, 255, 255, .1)",
                 }}
@@ -205,7 +205,7 @@ export default async function Home() {
                 Start for free
               </Button>
             </div>
-            <div className="mt-8 flex flex-col gap-2 text-xs opacity-70">
+            <div className="mt-8 flex flex-col gap-2 text-xs opacity-70 text-red-700">
               <CheckItem title="Connect your LLMs providers" />
             </div>
           </div>
@@ -218,8 +218,8 @@ export default async function Home() {
                       <RiRobot2Fill />
                     </div>
                     <div>
-                      <div className="text-sm font-semibold">AI agents</div>
-                      <div className="text-xs opacity-70">
+                      <div className="text-sm font-semibold text-red-700">AI agents</div>
+                      <div className="text-xs opacity-70 text-red-700">
                         Create multimodal AI agents that can interact with your
                         data & APIs and generate voice responses in real-time
                       </div>
@@ -234,10 +234,10 @@ export default async function Home() {
                     <MdDataObject />
                   </div>
                   <div>
-                    <div className="text-sm font-semibold">
+                    <div className="text-sm font-semibold text-red-700">
                       Structured data generation
                     </div>
-                    <div className="text-xs opacity-70">
+                    <div className="text-xs opacity-70 text-red-700">
                       Generate validated JSON based on any schema from multiple
                       data sources including text, images, audio, and URLs.
                     </div>
