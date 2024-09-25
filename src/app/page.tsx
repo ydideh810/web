@@ -736,9 +736,9 @@ export default async function Home() {
                 Typescript
               </div> 
             </Link>*/}
-            <div className="p-6 border-1 rounded-3xl opacity-80 h-48"></div>
+            {/*<div className="p-6 border-1 rounded-3xl opacity-80 h-48"></div>
             <div className="p-6 border-1 rounded-3xl opacity-80 h-48 hidden md:flex"></div>
-            <div className="p-6 border-1 rounded-3xl opacity-80 h-48 hidden md:flex"></div>
+            <div className="p-6 border-1 rounded-3xl opacity-80 h-48 hidden md:flex"></div>*/}
           </div> 
    
           <div className="w-full flex flex-col md:flex-row md:items-center gap-4">
