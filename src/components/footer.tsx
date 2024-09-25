@@ -34,7 +34,7 @@ export default function Footer({ className }: Props) {
       <div className="flex flex-col w-full">
         <div className="w-full flex items-center text-sm">
          
-          <div className="font-semibold ml-3">NIDDAM-HUB</div>
+          <div className="font-semibold ml-3 text-red-600">NIDDAM-HUB</div>
         </div>
         <div className="flex items-center gap-3 mt-8">
           {links.map((link, index) => (
