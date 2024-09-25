@@ -705,8 +705,8 @@ export default async function Home() {
               <div className="p-1 pl-2 pr-2 text-xs bg-blue-400/10 text-blue-400 max-w-max rounded-full font-semibold flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                 Typescript
-              </div>  */} 
-            </Link>
+              </div>  
+            </Link> */} 
             <Link
               href="https://docs.niddam-hub.com/packages/ts/client"
               target="_blank"
