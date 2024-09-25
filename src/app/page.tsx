@@ -706,7 +706,7 @@ export default async function Home() {
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                 Typescript
               </div>  
-            </Link> */} 
+            </Link> 
             <Link
               href="https://docs.niddam-hub.com/packages/ts/client"
               target="_blank"
@@ -740,7 +740,7 @@ export default async function Home() {
             <div className="p-6 border-1 rounded-3xl opacity-80 h-48"></div>
             <div className="p-6 border-1 rounded-3xl opacity-80 h-48 hidden md:flex"></div>
             <div className="p-6 border-1 rounded-3xl opacity-80 h-48 hidden md:flex"></div>
-          </div>
+          </div> */} 
           <div className="w-full flex flex-col md:flex-row md:items-center gap-4">
             <Link
               href="https://github.com/niddam-hub"
