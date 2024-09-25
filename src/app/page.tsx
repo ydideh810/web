@@ -678,18 +678,11 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className="w-full p-8 pt-20 md:p-12 md:pt-36 dark min-h-max">
+     {/*  <div className="w-full p-8 pt-20 md:p-12 md:pt-36 dark min-h-max">
         <div className="w-full flex flex-col gap-5 lg:pl-20 lg:pr-20 min-h-max">
           <div className="w-full">
-             {/* <div className="w-full flex items-center">
-             <h2
-                style={{
-                  textShadow: "10px 5px 35px rgba(255, 255, 255, .2)",
-                }}
-                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full text-red-700"
-              >
-                SDKs & Community
-              </h2>
+              <div className="w-full flex items-center">
+             
               <div
                 className="w-5 h-5 rounded-full blur-2xl opacity-20"
                 style={{
@@ -712,7 +705,7 @@ export default async function Home() {
               <div className="p-1 pl-2 pr-2 text-xs bg-blue-400/10 text-blue-400 max-w-max rounded-full font-semibold flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                 Typescript
-              </div>
+              </div>  */} 
             </Link>
             <Link
               href="https://docs.niddam-hub.com/packages/ts/client"
@@ -742,7 +735,7 @@ export default async function Home() {
               <div className="p-1 pl-2 pr-2 text-xs bg-blue-400/10 text-blue-400 max-w-max rounded-full font-semibold flex items-center gap-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                 Typescript
-              </div> */} 
+              </div> 
             </Link>
             <div className="p-6 border-1 rounded-3xl opacity-80 h-48"></div>
             <div className="p-6 border-1 rounded-3xl opacity-80 h-48 hidden md:flex"></div>
