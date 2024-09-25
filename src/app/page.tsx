@@ -110,9 +110,9 @@ const Feature = ({
   return (
     <div
       className={cn(
-        "flex flex-col lg:border-r  py-10 relative group/feature dark:border-neutral-800",
-        (index === 0 || index === 4) && "lg:border-l dark:border-neutral-800",
-        index < 4 && "lg:border-b dark:border-neutral-800"
+        "flex flex-col lg:border-r  py-10 relative group/feature dark:border-red-700",
+        (index === 0 || index === 4) && "lg:border-l dark:border-red-700",
+        index < 4 && "lg:border-b dark:border-red-700"
       )}
     >
       {index < 4 && (
@@ -121,16 +121,16 @@ const Feature = ({
       {index >= 4 && (
         <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-[#717171] dark:from-[#51515151] to-transparent pointer-events-none" />
       )}
-      <div className="mb-4 relative z-10 px-10 text-neutral-600 dark:text-neutral-400">
+      <div className="mb-4 relative z-10 px-10 text-red-600 dark:text-red-400">
         {icon}
       </div>
       <div className="text-lg font-bold mb-2 relative z-10 px-10">
-        <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral-700 group-hover/feature:bg-white transition-all duration-200 origin-center" />
-        <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-neutral-800 dark:text-neutral-100">
+        <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-red-300 dark:bg-red-700 group-hover/feature:bg-white transition-all duration-200 origin-center" />
+        <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-red-700 dark:text-red-100">
           {title}
         </span>
       </div>
-      <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
+      <p className="text-sm text-red-600 dark:text-red-300 max-w-xs relative z-10 px-10">
         {description}
       </p>
     </div>
@@ -158,7 +158,7 @@ export default async function Home() {
             maxSize={1}
             particleDensity={50}
             className="w-full h-full opacity-80"
-            particleColor="#919191"
+            particleColor="#E10000"
           />
         </div>
         <div className="w-full flex flex-col lg:flex-row lg:items-center gap-12 lg:pl-20 lg:pr-20">
@@ -174,14 +174,14 @@ export default async function Home() {
                   />
                 </span>{" "}
               </h1>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold w-full text-start mt-3 text-red-800">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold w-full text-start mt-3 text-red-700">
                 LLM-powered apps
               </h1>
               <h1
                 style={{
                   textShadow: "3px 3px 0px rgba(255, 255, 255, .2)",
                 }}
-                className="text-3xl md:text-4xl lg:text-5xl font-semibold w-full text-start mt-3 opacity-70"
+                className="text-3xl md:text-4xl lg:text-5xl font-semibold w-full text-start mt-3 opacity-70 text-red-500"
               >
                 10x faster
               </h1>
@@ -253,10 +253,10 @@ export default async function Home() {
                     <FaDatabase />
                   </div>
                   <div>
-                    <div className="text-sm font-semibold text-red-800">
+                    <div className="text-sm font-semibold text-red-700">
                       Long-term memory
                     </div>
-                    <div className="text-xs opacity-70 text-red-800">
+                    <div className="text-xs opacity-70 text-red-700">
                       No more need to manage conversations history, we did it
                       for you with managed Serverless encrypted memory stores
                     </div>
@@ -267,10 +267,10 @@ export default async function Home() {
                     <IoLibrary />
                   </div>
                   <div>
-                    <div className="text-sm font-semibold">
+                    <div className="text-sm font-semibold text-red-700">
                       Knowledge stores
                     </div>
-                    <div className="text-xs opacity-70">
+                    <div className="text-xs opacity-70 text-red-700">
                       Expand your AI agents knowledge by uploading files or
                       websites to Serverless knowledge stores served edge-close
                       to users
@@ -293,8 +293,8 @@ export default async function Home() {
                     <MdCode />
                   </div>
                   <div className="truncate">
-                    <div className="text-xs text-red-800">Functions</div>
-                    <div className="text-xs opacity-70 truncate text-red-800">
+                    <div className="text-xs text-red-700">Functions</div>
+                    <div className="text-xs opacity-70 truncate text-red-700">
                       Custom function from your code
                     </div>
                   </div>
@@ -304,8 +304,8 @@ export default async function Home() {
                     <FaGoogle />
                   </div>
                   <div>
-                    <div className="text-xs text-red-800">Google</div>
-                    <div className="text-xs opacity-70 text-red-800 truncate">
+                    <div className="text-xs text-red-700">Google</div>
+                    <div className="text-xs opacity-70 text-red-700 truncate">
                       Search google for resutls
                     </div>
                   </div>
@@ -315,16 +315,16 @@ export default async function Home() {
                     <AiFillApi />
                   </div>
                   <div>
-                    <div className="text-xs text-red-800">Your API</div>
-                    <div className="text-xs opacity-70 truncate text-red-800">
+                    <div className="text-xs text-red-700">Your API</div>
+                    <div className="text-xs opacity-70 truncate text-red-700">
                       Connect any API you want
                     </div>
                   </div>
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">APIs & Tools</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">APIs & Tools</div>
+                <div className="text-sm opacity-70 text-red-700">
                   Equip your AI agents with APIs and tools they can use to fetch
                   data or perform actions based on context
                 </div>
@@ -340,8 +340,8 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">Voice interaction</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">Voice interaction</div>
+                <div className="text-sm opacity-70 text-red-700">
                   Accept voice inputs, process multiple audio files in parallel,
                   and stream voice responses in under 300ms
                 </div>
@@ -354,20 +354,20 @@ export default async function Home() {
                   <FaLink />
                 </div>
                 <FaChevronDown size={11} className="transition-all" />
-                <div className="p-2 pl-3 pr-3 border rounded-xl flex items-center text-xs transition-all">
+                <div className="p-2 pl-3 pr-3 border rounded-xl flex items-center text-xs transition-all text-red-700">
                   Clean data & store embeddings
                 </div>
                 <FaChevronDown
                   size={11}
                   className="h-0 opacity-0 scale-0 group-hover:h-max group-hover:opacity-100 group-hover:scale-100 transition-all"
                 />
-                <div className="h-0 p-2 pl-3 pr-3 border rounded-xl flex items-center text-xs opacity-0 scale-0 group-hover:h-max group-hover:opacity-100 group-hover:scale-100 transition-all">
+                <div className="h-0 p-2 pl-3 pr-3 border text-red-700 rounded-xl flex items-center text-xs opacity-0 scale-0 group-hover:h-max group-hover:opacity-100 group-hover:scale-100 transition-all">
                   Served on the edge to your agents
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">Knowledge Stores</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">Knowledge Stores</div>
+                <div className="text-sm opacity-70 text-red-700">
                   Upload files, PDFs, or websites to knowledge stores to expand
                   your AI agents knowledge
                 </div>
@@ -378,27 +378,27 @@ export default async function Home() {
             <div className="w-full h-full border rounded-xl bg-accent/20 backdrop-blur p-6 flex flex-col group">
               <div className="flex flex-col gap-5 w-full">
                 <div>
-                  <div className="text-xs mb-2 opacity-80 text-red-800">Speed</div>
+                  <div className="text-xs mb-2 opacity-80 text-red-700">Speed</div>
                   <div className="w-full border border-red-300/50 rounded-full p-1 flex items-center justify-end pr-36 group-hover:pr-2 transition-all duration-1000">
                     <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-red-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
                   </div>
                 </div>
                 <div>
-                  <div className="text-xs mb-2 opacity-80 text-red-800">Security</div>
+                  <div className="text-xs mb-2 opacity-80 text-red-700">Security</div>
                   <div className="w-full border border-red-300/50 rounded-full p-1 flex items-center justify-end pr-24 group-hover:pr-2 transition-all duration-1000">
                     <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-red-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
                   </div>
                 </div>
                 <div>
-                  <div className="text-xs mb-2 opacity-80 text-red-800">Accuracy</div>
+                  <div className="text-xs mb-2 opacity-80 text-red-700">Accuracy</div>
                   <div className="w-full border border-red-300/50 rounded-full p-1 flex items-center justify-end pr-48 group-hover:pr-4 transition-all duration-1000">
                     <div className="p-2 rounded-r-full rounded-l-lg bg-gradient-to-r from-transparent to-red-500 w-12 group-hover:w-24 transition-all duration-1000"></div>
                   </div>
                 </div>
               </div>
               <div className="h-full"></div>
-              <div className="text-2xl mt-8 text-red-800">Fast & Reliable</div>
-              <div className="opacity-70 text-sm mt-3 text-red-800">
+              <div className="text-2xl mt-8 text-red-700">Fast & Reliable</div>
+              <div className="opacity-70 text-sm mt-3 text-red-700">
                 NiddamHub is optimized for performance and real-time interactive
                 applications, with built-in streaming, memory encryption, LLM
                 output validation, and smart errors recovery
@@ -407,8 +407,8 @@ export default async function Home() {
             <div className="w-full h-[20rem] md:h-full border rounded-xl bg-accent/20 backdrop-blur p-6 relative overflow-hidden group">
               <Globe className="absolute -right-8 -bottom-72 opacity-35" />
               <div className="w-full h-full absolute z-10 p-10 transition-all group-hover:bg-background/60 top-0 left-0">
-                <div className="text-3xl text-red-800">Scale globally</div>
-                <div className="max-w-[90%] mt-6 text-red-800">
+                <div className="text-3xl text-red-700">Scale globally</div>
+                <div className="max-w-[90%] mt-6 text-red-700">
                   Effortlessly scale on your own rules. Both knowledge
                   & memory stores are scalable and served edge-close to your
                   users from 26 regions across the globe
@@ -430,8 +430,8 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">Vision</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">Vision</div>
+                <div className="text-sm opacity-70 text-red-700">
                   Just simply use a LLM that supports vision and send your
                   images as inputs without any additional setup
                 </div>
@@ -463,7 +463,7 @@ export default async function Home() {
                       <div className="text-xs text-red-300">
                         AI Assistant
                       </div>
-                      <div className="text-xs opacity-80 text-red-800">
+                      <div className="text-xs opacity-80 text-red-700">
                         Based on the knowledge we have
                         <br />
                         <br />
@@ -477,8 +477,8 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">Playground</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">Playground</div>
+                <div className="text-sm opacity-70 text-red-700">
                   AI agents can be used to build automation apps, AI
                   conversational bots (text & voice), or for data extraction
                   tasks.
@@ -499,8 +499,8 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">Data Extraction</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">Data Extraction</div>
+                <div className="text-sm opacity-70 text-red-700">
                   Extract data from multiple data sources and generate a
                   validated JSON object based on any data schema
                 </div>
@@ -518,7 +518,7 @@ export default async function Home() {
                 style={{
                   textShadow: "10px 5px 35px rgba(255, 255, 255, .2)",
                 }}
-                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full"
+                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full text-red-700"
               >
                 Simple Process
               </h2>
@@ -547,8 +547,8 @@ export default async function Home() {
                 />
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">00. Connect your provider</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">00. Connect your provider</div>
+                <div className="text-sm opacity-70 text-red-700">
                   Connect the LLM provider that will power your AI agents safely
                   from your servers and never share them with our servers
                 </div>
@@ -574,8 +574,8 @@ export default async function Home() {
                 <div className="p-1 pl-2 pr-2 text-sm border-red-500 bg-red-500/5 border rounded-xl text-red-400" />
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">01. Create AI bot/agent</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">01. Create AI bot/agent</div>
+                <div className="text-sm opacity-70 text-red-700">
                   AI agents can be used to build automation apps, AI
                   conversational bots (text & voice), or for data extraction
                   tasks.
@@ -589,8 +589,8 @@ export default async function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <div className="text-lg mb-3 text-red-800">02. Build</div>
-                <div className="text-sm opacity-70 text-red-800">
+                <div className="text-lg mb-3 text-red-700">02. Build</div>
+                <div className="text-sm opacity-70 text-red-700">
                   Use the agent in your app or deploy it as an API endpoint in
                   seconds with your favorite web framework.
                 </div>
@@ -608,7 +608,7 @@ export default async function Home() {
                 style={{
                   textShadow: "10px 5px 35px rgba(255, 255, 255, .2)",
                 }}
-                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full text-red-800"
+                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full text-red-700"
               >
                 Why Niddam-Hub?
               </h2>
@@ -625,10 +625,10 @@ export default async function Home() {
       <div className="w-full p-8 pt-20 md:p-12 md:pt-36 dark min-h-max">
         <div className="w-full flex flex-col lg:flex-row lg:items-center gap-5 lg:pl-20 lg:pr-20 min-h-max">
           <div className="w-full">
-            <div className="flex items-center gap-3 text-3xl md:text-4xl">
+            <div className="flex items-center gap-3 text-3xl md:text-4xl text-red-700">
               Use cases
             </div>
-            <div className="text-sm lg:text-base opacity-70 mt-6 text-red-800">
+            <div className="text-sm lg:text-base opacity-70 mt-6 text-red-700">
               You can build any AI application
               with the OpenAI SDK, now 10 times faster, more reliable, with
               multimodal inputs.
@@ -652,7 +652,7 @@ export default async function Home() {
                 textShadow: "0px 0px 5px #ef4444",
               }}
             >
-              <IoMdClose className="text-red-800" /> No code
+              <IoMdClose className="text-red-700" /> No code
             </div>
             <div
               className="flex items-center gap-3 text-3xl md:text-4xl"
@@ -660,9 +660,9 @@ export default async function Home() {
                 textShadow: "0px 0px 5px rgba(255, 255, 255, .5)",
               }}
             >
-              <FaCheck className="" /> Clean code
+              <FaCheck className="text-red-700" /> Clean code
             </div>
-            <div className="text-sm lg:text-base opacity-70 mt-6">
+            <div className="text-sm lg:text-base opacity-70 mt-6 text-red-700">
               Built from the ground to be easily integrated in web applications,
               with simple APIs, full type-safety, and easy error handling
             </div>
@@ -686,7 +686,7 @@ export default async function Home() {
                 style={{
                   textShadow: "10px 5px 35px rgba(255, 255, 255, .2)",
                 }}
-                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full text-red-800"
+                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full text-red-700"
               >
                 SDKs & Community
               </h2>
@@ -704,8 +704,8 @@ export default async function Home() {
               target="_blank"
               className="p-6 bg-accent/30 rounded-3xl w-full transition-all hover:bg-accent/40 hover:scale-105 h-48 border"
             >
-              <div className="mb-2 text-lg text-red-800">@niddam-hub/niddam-hub</div>
-              <div className="text-sm opacity-70 mb-4 text-red-800">
+              <div className="mb-2 text-lg text-red-700">@niddam-hub/niddam-hub</div>
+              <div className="text-sm opacity-70 mb-4 text-red-700">
                 Run agents on the server-side & deploy a HTTP based niddam-hub API
                 endpoint with streaming support
               </div>
@@ -734,8 +734,8 @@ export default async function Home() {
               target="_blank"
               className="p-6 bg-accent/30 rounded-3xl w-full transition-all hover:bg-accent/40 border hover:scale-105 h-48"
             >
-              <div className="mb-2 text-lg text-red-800">@niddam-hub/react</div>
-              <div className="text-sm opacity-70 mb-4 text-red-800">
+              <div className="mb-2 text-lg text-red-700">@niddam-hub/react</div>
+              <div className="text-sm opacity-70 mb-4 text-red-700">
                 Building blocks to use niddam-hub in React projects with built-in
                 state management. niddam-hub playground was built using this
               </div>
@@ -760,7 +760,7 @@ export default async function Home() {
                 className="absolute opacity-5 w-full h-full p-10"
               />
               <div className="mb-2 mt-4">Github</div>
-              <div className="text-sm opacity-80 text-center text-red-800">
+              <div className="text-sm opacity-80 text-center text-red-700">
                  All parts of Niddam-Hub that have been developed as
                 open source
               </div>
@@ -776,7 +776,7 @@ export default async function Home() {
                 className="absolute opacity-5 w-full h-full p-10"
               />
              
-              <div className="text-sm opacity-80 text-center text-red-800">
+              <div className="text-sm opacity-80 text-center text-red-700">
                 Follow us to stay up to date with our latest news and updates
               </div>
             </Link>
@@ -817,7 +817,7 @@ export default async function Home() {
               size="sm"
               variant="light"
               radius="full"
-              className="border-1 text-red-800"
+              className="border-1 text-red-700"
               endContent={<FaChevronRight />}
             >
               Learn more about pricing
@@ -834,7 +834,7 @@ export default async function Home() {
             size="lg"
             as={Link}
             href="https://app.niddam-hub.com/login"
-            className="font-semibold max-w-max text-red-800"
+            className="font-semibold max-w-max text-red-700"
             style={{
               boxShadow: "0px 5px 15px 5px rgba(255, 255, 255, .1)",
             }}
