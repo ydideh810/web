@@ -792,7 +792,7 @@ export default async function Home() {
                 style={{
                   textShadow: "10px 5px 35px rgba(255, 255, 255, .2)",
                 }}
-                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full"
+                className="text-3xl md:text-4xl lg:text-5xl w-full text-start w-full text-red-700"
               >
                 Pricing
               </h2>
