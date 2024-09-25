@@ -33,10 +33,8 @@ export default function Footer({ className }: Props) {
     >
       <div className="flex flex-col w-full">
         <div className="w-full flex items-center text-sm">
-          <div className="w-9 h-9 overflow-hidden rounded-xl bg-white flex items-center justify-center pt-1">
-            <SvgLogo />
-          </div>
-          <div className="font-semibold ml-3">Scoopika</div>
+         
+          <div className="font-semibold ml-3">NIDDAM-HUB</div>
         </div>
         <div className="flex items-center gap-3 mt-8">
           {links.map((link, index) => (
@@ -57,28 +55,28 @@ export default function Footer({ className }: Props) {
         <Link
           href="https://docs.scoopika.com/agents"
           target="_blank"
-          className="text-sm opacity-70 hover:opacity-100"
+          className="text-sm opacity-70 hover:opacity-100 text-red-700"
         >
           AI Agents
         </Link>
         <Link
           href="https://docs.scoopika.com/tools"
           target="_blank"
-          className="text-sm opacity-70 hover:opacity-100"
+          className="text-sm opacity-70 hover:opacity-100 text-red-700"
         >
           Tools
         </Link>
         <Link
           href="https://docs.scoopika.com/history-stores"
           target="_blank"
-          className="text-sm opacity-70 hover:opacity-100"
+          className="text-sm opacity-70 hover:opacity-100 text-red-700"
         >
           Memory stores
         </Link>
         <Link
           href="https://docs.scoopika.com/tools/client-side-actions"
           target="_blank"
-          className="text-sm opacity-70 hover:opacity-100"
+          className="text-sm opacity-70 hover:opacity-100 text-red-700"
         >
           Client-side actions
         </Link>
@@ -89,21 +87,21 @@ export default function Footer({ className }: Props) {
         <Link
           href="https://docs.scoopika.com"
           target="_blank"
-          className="text-sm opacity-70 hover:opacity-100"
+          className="text-sm opacity-70 hover:opacity-100 text-red-700"
         >
           Documentation
         </Link>
         <Link
           href="https://github.com/scoopika"
           target="_blank"
-          className="text-sm opacity-70 hover:opacity-100"
+          className="text-sm opacity-70 hover:opacity-100 text-red-700"
         >
           Github
         </Link>
         <Link
           href="/privacy_policy.pdf"
           target="_blank"
-          className="text-sm opacity-70 hover:opacity-100"
+          className="text-sm opacity-70 hover:opacity-100 text-red-700"
         >
           Privacy Policy
         </Link>
