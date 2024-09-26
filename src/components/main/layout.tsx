@@ -207,7 +207,7 @@ export default function MainLayout({ children, session }: Props) {
               <div className="w-8 h-8 overflow-hidden rounded-xl bg-white flex items-center justify-center pt-1">
                 <SvgLogo />
               </div>
-              <div className="text-sm font-semibold ml-2">Scoopika</div>
+              <div className="text-sm font-semibold ml-2">Niddam-Hub</div>
             </div>
             <Settings session={session} />
           </div>
