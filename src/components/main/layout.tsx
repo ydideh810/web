@@ -205,7 +205,7 @@ export default function MainLayout({ children, session }: Props) {
           <div className="w-full flex items-center gap-2 mb-6 pl-1 pr-1 pt-1">
             <div className="w-full flex items-center text-xs">
               <div className="w-8 h-8 overflow-hidden rounded-xl bg-white flex items-center justify-center pt-1">
-                <SvgLogo />
+   
               </div>
               <div className="text-sm font-semibold ml-2">Niddam-Hub</div>
             </div>
