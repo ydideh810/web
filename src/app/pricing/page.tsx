@@ -188,7 +188,7 @@ export const Offer = () => {
         <div className="w-full p-10 flex flex-col">
           <h3 className="text-2xl font-semibold">Special Offer</h3>
           <div className="opacity-80 mt-2 mb-10">
-            {"We'll"} build your full AI feature in a week with Scoopika, you
+            {"We'll"} build your full AI feature in a week, you
             name it, we build it!
           </div>
           <div className="h-full"></div>
@@ -197,7 +197,7 @@ export const Offer = () => {
               You get 3 months of the scale plan, plus:
             </div>
             <CheckItem
-              title="Build any AI feature you want with Scoopika"
+              title="Build any AI feature you want with Niddam-Hub"
               className="w-full"
             />
             <CheckItem
@@ -228,7 +228,7 @@ export const Offer = () => {
           </div>
           <Button
             as={Link}
-            href="mailto:team@scoopika.com"
+            href="mailto:yonis@niddam.ai"
             size="sm"
             color="primary"
             className="font-semibold mt-6 w-full"
