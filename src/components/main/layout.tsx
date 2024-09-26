@@ -6,7 +6,7 @@ import { FaDatabase } from "react-icons/fa6";
 import { RiRobot2Fill } from "react-icons/ri";
 import { AiFillHome } from "react-icons/ai";
 import Link from "next/link";
-import SvgLogo from "./logo";
+
 import { ThemeToggleRow } from "../themeToggle";
 import { FaBook } from "react-icons/fa6";
 import { FaChartSimple } from "react-icons/fa6";
@@ -117,7 +117,7 @@ export default function MainLayout({ children, session }: Props) {
       <div className="fixed w-full pl-6 pr-6 min-h-16 max-h-16 flex items-center z-50 lg:hidden bg-background md:border-b-1 top-0 left-0">
         <div className="w-full flex items-center text-sm pl-2">
           <div className="w-9 h-9 overflow-hidden rounded-xl bg-white flex items-center justify-center pt-1">
-            <SvgLogo />
+          
           </div>
           <div className="font-semibold ml-3">NiddamHub</div>
         </div>
