@@ -685,7 +685,7 @@ export default async function Home() {
               <div
                 className="w-5 h-5 rounded-full blur-2xl opacity-20"
                 style={{
-                  boxShadow: "0px 5px 200px 120px #8b5cf6",
+                  boxShadow: "0px 5px 200px 120px #E10000",
                 }}
               ></div>
             </div>
